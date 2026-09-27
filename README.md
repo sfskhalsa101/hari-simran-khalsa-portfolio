@@ -8,7 +8,7 @@ Three focused projects are maintained in this repository, each with its own page
 | --- | --- | --- |
 | [Sort planner](projects/sort-planner/) | Staff doors and sequence arrived trailers; compare throughput and assigned labor | Working simulation |
 | [Dispatch dashboard](projects/dispatch-dashboard/) | Prioritize late arrivals, scan gaps, and service risks | Working synthetic demo |
-| [AIncident](projects/aincident/) | Document independent product delivery and sale | Evidence-limited case study; original demo pending |
+| [AIncident](projects/aincident/) | Document independent product delivery and sale | Product delivery and commercial sale case study |
 
 ## Run locally
 
