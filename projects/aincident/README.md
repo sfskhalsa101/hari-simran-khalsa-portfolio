@@ -4,22 +4,23 @@
 
 **Audience:** hiring teams reviewing independent product delivery.
 
-**Product user and decision:** the public portfolio describes operational reporting; specific customer roles and reporting decisions are not yet documented in the available source.
+**Product:** incident-reporting SaaS with GPT summaries, PDF export, and Stripe billing, as described in the owner-provided Flippa listing screenshot. The embedded demo title also identifies role-based access control (RBAC). Original implementation has not been reviewed.
 
-**Known delivery:** founder and lead developer through Security Flaw Solutions; requirements through deployment; Python, FastAPI, PostgreSQL, Streamlit; $5,000 sale in May 2026. These are owner-reported details already published in the portfolio, not independently audited claims.
+**Role and delivery:** founder and lead developer through Security Flaw Solutions; requirements through deployment; Python, FastAPI, PostgreSQL, Streamlit. Role and stack come from the existing public portfolio.
 
-**Success measure:** commercial sale. No usage, time-saving, retention, or accuracy measures are available, and none are invented.
+**Commercial outcome:** Flippa marks aincident.dev sold for **$4,995** in the owner's screenshot. The owner identifies this as the sale. The screenshot also prompts finalizing the deal; it is not independent evidence of settled payment or completed asset transfer.
 
-## Source and rights
+**Date:** awaiting confirmation. The previous portfolio's May 2026 date conflicts with screenshot filenames dated August 12, 2025. Filenames alone do not establish the closing date, so the date has been removed from the public page.
 
-Source: the pre-existing public portfolio `index.html` at commit `144bc8b36452f24ce9a5a5cc25b11555a17eb12b`. This folder contains newly authored case-study presentation code only, not the original sold application's code. Shared CSS lives in the parent project and repository folders.
+## Evidence and publication scope
 
-## Still needed to complete the original product showcase
+Two owner-provided screenshots show the sale status and original listing. Their account details and buyer identifier are not published. Listing features are distinguished from independently tested functionality. No production efficiency, model accuracy, or retention improvements are claimed.
 
-- Owner-approved screenshots or an authorized product demo.
-- Specific problem, user workflow, and requirements.
-- Two or three genuine product or engineering decisions and their tradeoffs.
-- Scope of the delivered product, acceptance criteria, and handoff.
-- Confirmation of which original code and artifacts remain publishable after sale.
+This folder contains newly authored case-study presentation code, not the original sold application's source. The source screenshots remain private; their relevant product and sale facts are summarized.
 
-Until those materials are supplied, this page is explicitly an evidence-limited case study, not a working AIncident demo. No buyer identity, contract, or original source is published.
+## Remaining material
+
+- A publishable original demo or product screenshots.
+- Specific user workflow, requirements, and first-hand product decisions.
+- Actual engineering tradeoffs, acceptance criteria, delivery, and handoff.
+- Confirmation of the closing date and which original code remains publishable.
