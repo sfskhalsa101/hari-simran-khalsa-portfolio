@@ -7,3 +7,8 @@
 
 .savings-explanation{padding:17px 18px;background:var(--pale);border-left:3px solid var(--blue)}.savings-explanation p+p{margin-top:8px;font-size:13px}.savings-explanation strong{font-weight:600;color:var(--ink)}
 @media(max-width:1050px){.metrics{grid-template-columns:repeat(2,1fr);gap:26px}.metrics>div:nth-child(3){border:0;padding-left:0}}
+
+.experience-list ul{margin:0;padding-left:1.2em;max-width:680px;color:var(--muted);font-size:15px;line-height:1.7}
+.experience-list li{padding-left:.25em;margin-bottom:.7em}
+.experience-list li:last-child{margin-bottom:0}
+.experience-list li::marker{color:var(--accent)}
