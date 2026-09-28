@@ -12,3 +12,5 @@
 .experience-list li{padding-left:.25em;margin-bottom:.7em}
 .experience-list li:last-child{margin-bottom:0}
 .experience-list li::marker{color:var(--accent)}
+
+.skills-overview{padding-top:32px}.skills-overview h3{font-size:22px;margin:0 0 18px}.skills-overview p{color:var(--muted);font-size:15px;line-height:1.8;max-width:950px;margin:0 0 12px}.skills-overview strong{color:var(--ink)}
