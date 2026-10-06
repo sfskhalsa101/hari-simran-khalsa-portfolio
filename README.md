@@ -2,10 +2,11 @@
 
 [Live portfolio](https://sfskhalsa101.github.io/hari-simran-khalsa-portfolio/)
 
-Four projects are featured on the portfolio. FlowCheck is maintained in its own repository; the other three have pages and source here:
+Five projects are featured on the portfolio. FlowCheck is maintained in its own repository; the other four have pages and source here:
 
 | Project | Decision / evidence | Status |
 | --- | --- | --- |
+| [ShiftLens](projects/operations-analytics/) | SQL / Power BI measures and a browser analytics case study | Synthetic data; native Desktop rendering unverified |
 | [FlowCheck](https://sfskhalsa101.github.io/flowcheck/) · [source](https://github.com/sfskhalsa101/flowcheck) | Reconcile WMS/TMS exports, investigate differences, and verify corrected data | Working browser demo + Python/SQL backend |
 | [Sort planner](projects/sort-planner/) | Staff doors and sequence arrived trailers; compare throughput and assigned labor | Working simulation |
 | [Dispatch dashboard](projects/dispatch-dashboard/) | Prioritize late arrivals, scan gaps, and service risks | Working synthetic demo |

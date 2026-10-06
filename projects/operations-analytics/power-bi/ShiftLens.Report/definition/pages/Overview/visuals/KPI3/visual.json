@@ -1,0 +1,38 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.0.0/schema.json",
+  "name": "KPI3",
+  "position": {
+    "x": 965,
+    "y": 20,
+    "z": 0,
+    "width": 295,
+    "height": 130,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "card",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Shifts"
+                    }
+                  },
+                  "Property": "Errors per 10K"
+                }
+              },
+              "queryRef": "Shifts.Errors per 10K",
+              "nativeQueryRef": "Errors per 10K"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
