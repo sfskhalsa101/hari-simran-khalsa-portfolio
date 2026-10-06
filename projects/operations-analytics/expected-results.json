@@ -1,0 +1,32 @@
+[
+  {
+    "area": "Load",
+    "packages": 3022493,
+    "paid_pph": 613.3,
+    "productive_pph": 690.8,
+    "utilization_pct": 88.8,
+    "target_attainment_pct": 98.7,
+    "errors_per_10k": 22.0,
+    "interrupted_labor_hours": 553.0
+  },
+  {
+    "area": "Small Sort",
+    "packages": 2281616,
+    "paid_pph": 1018.6,
+    "productive_pph": 1069.8,
+    "utilization_pct": 95.2,
+    "target_attainment_pct": 97.3,
+    "errors_per_10k": 8.0,
+    "interrupted_labor_hours": 107.3
+  },
+  {
+    "area": "Unload",
+    "packages": 3377082,
+    "paid_pph": 837.6,
+    "productive_pph": 876.2,
+    "utilization_pct": 95.6,
+    "target_attainment_pct": 97.4,
+    "errors_per_10k": 8.01,
+    "interrupted_labor_hours": 177.9
+  }
+]

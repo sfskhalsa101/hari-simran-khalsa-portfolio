@@ -1,0 +1,56 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.0.0/schema.json",
+  "name": "Utilization",
+  "position": {
+    "x": 280,
+    "y": 170,
+    "z": 0,
+    "width": 450,
+    "height": 250,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "clusteredColumnChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Shifts"
+                    }
+                  },
+                  "Property": "area"
+                }
+              },
+              "queryRef": "Shifts.area",
+              "nativeQueryRef": "area"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Shifts"
+                    }
+                  },
+                  "Property": "Labor Utilization"
+                }
+              },
+              "queryRef": "Shifts.Labor Utilization",
+              "nativeQueryRef": "Labor Utilization"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

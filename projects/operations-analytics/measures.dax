@@ -1,0 +1,17 @@
+Packages = SUM(Shifts[packages])
+
+Paid Hours = SUM(Shifts[paid_hours])
+
+Productive Hours = SUM(Shifts[productive_hours])
+
+Paid PPH = DIVIDE([Packages], [Paid Hours])
+
+Productive PPH = DIVIDE([Packages], [Productive Hours])
+
+Labor Utilization = DIVIDE([Productive Hours], [Paid Hours])
+
+Target Attainment = DIVIDE([Packages], SUMX(Shifts, Shifts[target_pph] * Shifts[productive_hours]))
+
+Errors per 10K = DIVIDE(SUM(Shifts[quality_errors]) * 10000, [Packages])
+
+Interrupted Labor Hours = [Paid Hours] - [Productive Hours]

@@ -1,0 +1,136 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.0.0/schema.json",
+  "name": "AreaComparison",
+  "position": {
+    "x": 20,
+    "y": 450,
+    "z": 0,
+    "width": 1240,
+    "height": 380,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Shifts"
+                    }
+                  },
+                  "Property": "area"
+                }
+              },
+              "queryRef": "Shifts.area",
+              "nativeQueryRef": "area"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Shifts"
+                    }
+                  },
+                  "Property": "Packages"
+                }
+              },
+              "queryRef": "Shifts.Packages",
+              "nativeQueryRef": "Packages"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Shifts"
+                    }
+                  },
+                  "Property": "Paid PPH"
+                }
+              },
+              "queryRef": "Shifts.Paid PPH",
+              "nativeQueryRef": "Paid PPH"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Shifts"
+                    }
+                  },
+                  "Property": "Productive PPH"
+                }
+              },
+              "queryRef": "Shifts.Productive PPH",
+              "nativeQueryRef": "Productive PPH"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Shifts"
+                    }
+                  },
+                  "Property": "Labor Utilization"
+                }
+              },
+              "queryRef": "Shifts.Labor Utilization",
+              "nativeQueryRef": "Labor Utilization"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Shifts"
+                    }
+                  },
+                  "Property": "Target Attainment"
+                }
+              },
+              "queryRef": "Shifts.Target Attainment",
+              "nativeQueryRef": "Target Attainment"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Shifts"
+                    }
+                  },
+                  "Property": "Errors per 10K"
+                }
+              },
+              "queryRef": "Shifts.Errors per 10K",
+              "nativeQueryRef": "Errors per 10K"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Shifts"
+                    }
+                  },
+                  "Property": "Interrupted Labor Hours"
+                }
+              },
+              "queryRef": "Shifts.Interrupted Labor Hours",
+              "nativeQueryRef": "Interrupted Labor Hours"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

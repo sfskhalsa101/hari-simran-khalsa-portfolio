@@ -1,0 +1,70 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/1.0.0/schema.json",
+  "name": "DailyProductivity",
+  "position": {
+    "x": 750,
+    "y": 170,
+    "z": 0,
+    "width": 510,
+    "height": 250,
+    "tabOrder": 0
+  },
+  "visual": {
+    "visualType": "lineChart",
+    "query": {
+      "queryState": {
+        "Category": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Shifts"
+                    }
+                  },
+                  "Property": "date"
+                }
+              },
+              "queryRef": "Shifts.date",
+              "nativeQueryRef": "date"
+            }
+          ]
+        },
+        "Y": {
+          "projections": [
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Shifts"
+                    }
+                  },
+                  "Property": "Paid PPH"
+                }
+              },
+              "queryRef": "Shifts.Paid PPH",
+              "nativeQueryRef": "Paid PPH"
+            },
+            {
+              "field": {
+                "Measure": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "Shifts"
+                    }
+                  },
+                  "Property": "Productive PPH"
+                }
+              },
+              "queryRef": "Shifts.Productive PPH",
+              "nativeQueryRef": "Productive PPH"
+            }
+          ]
+        }
+      }
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
